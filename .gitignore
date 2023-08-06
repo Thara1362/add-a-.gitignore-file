@@ -1,8 +1,8 @@
 # ignore all files start with letter z
 z*
 
-## ignore all .env files
+# ignore all .env files
 *.env
 
-### ignore directory with the name artifacts
+# ignore directory with the name artifacts
 artifacts/
