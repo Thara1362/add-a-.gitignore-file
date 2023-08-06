@@ -2,7 +2,9 @@
 z*
 
 # ignore all .env files
-*.env
+git rm --cached .env
 
 # ignore directory with the name artifacts
 artifacts/
+
+git commit -m "update ignored files"
