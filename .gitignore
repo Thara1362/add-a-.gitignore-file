@@ -1,4 +1,3 @@
-touch .gitignore
 z*
-git rm --cached .env
+*.env
 artifacts/
