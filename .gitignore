@@ -1,10 +1,4 @@
-# ignore all files start with letter z
-starting*z*
-
-# ignore all .env files
+touch .gitignore
+z*
 git rm --cached .env
-
-# ignore directory with the name artifacts
 artifacts/
-
-git commit -m "update ignored files"
